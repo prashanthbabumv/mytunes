@@ -1,0 +1,357 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* height: 1000vh; */
+}
+/* #nav4{
+    border: 1px solid black;
+    
+} */
+#mainnav{
+    /* display: flex; */
+    display: inline-block;
+    padding: 0;
+    background-color: #333333;
+    /* background-color: rgb(51, 34, 34); */
+    /* gap: 30px; */
+    position: fixed;
+    
+}
+#nav_bar{
+    display: flex;
+    width: 1200vh;
+    /* background-color: #333333; */
+    gap: 30px;
+   /* position:;
+   top: 0; */
+    
+}
+#nav_bar>section a{
+    color:white;
+    margin-left: 15px;
+    word-spacing: 55px;
+    line-height: 50px;
+    font-size: 18px;
+}
+#frontpage {
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+    
+}
+#header{
+    margin-left: 230px;
+ text-align: center;
+ margin-top: 150px;
+ 
+ 
+
+}
+h1{
+   
+    color: white;
+    font-size: 50px;
+    
+}
+h2{
+  
+    display: block;
+    color: white;
+    font-size: 30px;
+}
+#para2{
+   /* display: block;
+   margin-left: 300px;
+   align-items: center; */
+    display: inline-block;
+  
+   color: white;
+    
+    font-size: 20px;
+}
+#secondpage{
+    background-color:#252529;
+  margin-left: 350px;
+    padding: 0;
+    margin: 0;
+    /* display: flex; */
+    display: inline-block;
+    width: 1519px;
+    
+}
+#header2{
+    /* align-items: center; */
+    text-align: center;
+}
+#header2>h1{
+    color: white;
+}
+#header2>h2{
+    color: white;
+}
+#header2>h3{
+    color: white;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+#btn>button{
+    margin-top: 10px;
+    background-color: red;
+    color: whitesmoke;
+    width: 200px;
+    height: 50px;
+}
+#para3{
+    margin-top: 35px;
+    color: white;
+    font-size: 18px;
+}
+#image3{
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 50px;
+  
+}
+#thirdpage{
+    margin-top: 80px;
+ 
+}
+#header3>h1{
+    color: grey;
+    text-align: center;
+    font-size: 35px;
+
+}
+#para4{
+    /* position: relative; */
+    margin-top: 40px;
+    margin-left: 1px;
+    font-size: 18px;
+    text-align: center;
+}
+#btn2>button{
+    margin-top: 20px;
+    margin-left: 700px;
+    height: 55px;
+    width: 120px;
+    background-color: #103063;
+    color: white;
+}
+#btn2>button:hover{
+    background-color: #9d9d9d;
+}
+
+#image5>img{
+    margin-top: 20px;
+    margin-left: 170px;
+}
+#fourthpage{
+    background: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+   
+}
+#babu{
+    text-align: center;
+   
+}
+#babu>h1{
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 230px;
+}
+#babu>p{
+    color: white;
+    text-align: center;
+    width: 950px;
+    font-size: 23px;
+    margin-left: 300px;
+}
+
+#image7 img{
+    margin-left: 130px;
+    
+    
+}
+h5{
+    font-size: 23px;
+    margin-left: 20px;
+}
+
+#fifthpage{
+    display: flex;
+    
+}
+#para10 p{
+    line-height: 23px;
+    font-size: 16px;
+    width: 450px;
+    margin-left: 20px;
+}
+ul{
+    text-align: left;
+    padding: 0;
+   
+}
+#footer{
+    background-color: #252529;
+    height: 280px;
+    /* position: relative; */
+   
+}
+#footer footer{
+    
+    margin-left: 230px;
+    display: flex;
+    gap: 200px;
+
+}
+footer h3{
+    margin-top: 50px;
+    color: white;
+}
+footer ul{
+   list-style-type: none;
+    color: white;
+    line-height: 25px;
+    font-size: 15px;
+}
+.flex1{
+    position: relative;
+}
+/* .flex1 h3:before
+{
+    content: '';
+    display: block;
+    background-color: red;
+    width: 250px;
+    height: 1px;
+    left: 0px;
+    top: 150px;
+    position: absolute;
+} */
+.flex1 #line1:before{
+    content: '';
+    display: block;
+    
+    background-color: #7c7c7c;
+    width: 250px;
+    height: 1px;
+    left: 0px;
+    top: 89px;
+    position: absolute;
+}
+.flex1 #line2:before{
+    content: '';
+    display: block;
+    
+    background-color: #7c7c7c;
+    width: 250px;
+    height: 1px;
+    left: 0px;
+    top: 89px;
+    position: absolute;
+}
+.flex1 #line3:before{
+    content: '';
+    display: block;
+    
+    background-color: #7c7c7c;
+    width: 250px;
+    height: 1px;
+    left: 0px;
+    top: 89px;
+    position: absolute;
+}
+.flex1 #line4:before{
+    content: '';
+    display: block;
+    
+    background-color:  #7c7c7c;
+    width: 250px;
+    height: 1px;
+    left: 0px;
+    top: 89px;
+    position: absolute;
+}
+/* footer hr{
+    width: 250px;
+   
+} */
+#end{
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#end h5{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+i{
+    color: red;
+    margin-right: 10px;
+    
+}
+#nav4:hover{
+  border-bottom: 1px solid #7c7c7c;
+  opacity: 1;
+  /* background-color: hsl(10, 18%, 81%); */
+  background-color: #7c7c7c;
+   
+}
+#nav_bar section:hover:nth-child(1){
+    border-bottom: 1px solid #7c7c7c;
+    opacity: 1;
+    /* background-color: hsl(10, 18%, 81%); */
+    background-color: #7c7c7c;
+  
+
+     
+  }
+  #nav_bar section:hover:nth-child(2){
+    border-bottom: 1px solid #7c7c7c;
+    opacity: 1;
+    /* background-color: hsl(10, 18%, 81%); */
+    background-color: #7c7c7c;
+  
+
+     
+  }
+  #nav_bar  section:hover:nth-child(3){
+    border-bottom: 1px solid #7c7c7c;
+    opacity: 1;
+    /* background-color: hsl(10, 18%, 81%); */
+    background-color: #7c7c7c;
+  }
+  #nav_bar  section:hover:nth-child(4){
+    border-bottom: 1px solid #7c7c7c;
+    opacity: 1;
+    /* background-color: hsl(10, 18%, 81%); */
+    background-color: #7c7c7c;
+  }
+  a{
+    text-decoration: none;
+    color: #333333;
+  }
+
+  .flex1 ul li a{
+    color: white;
+  }
